@@ -1,0 +1,22 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: 1fr 6fr;
+    grid-template-columns: 1fr 6fr;
+}
+
+nav,
+header,
+main {
+    border: 1px solid black;
+}
+
+nav {
+    grid-row: 1 / span 2;
+}
